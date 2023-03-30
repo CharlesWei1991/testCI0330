@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45D2EBE80726C679CDD601AC /* Pods_cricleCIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AE1083F4A7E414D1DAB593 /* Pods_cricleCIDemo.framework */; };
+		94B35EA4B64070A28C2C6ECF /* Pods_cricleCIDemo_cricleCIDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C06B14F2EC5E16A0DE3D74 /* Pods_cricleCIDemo_cricleCIDemoUITests.framework */; };
 		C346692829D55CA500E2691A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346692729D55CA500E2691A /* AppDelegate.swift */; };
 		C346692A29D55CA500E2691A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346692929D55CA500E2691A /* SceneDelegate.swift */; };
 		C346692C29D55CA500E2691A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346692B29D55CA500E2691A /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		C346693F29D55CA700E2691A /* cricleCIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346693E29D55CA700E2691A /* cricleCIDemoTests.swift */; };
 		C346694929D55CA700E2691A /* cricleCIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346694829D55CA700E2691A /* cricleCIDemoUITests.swift */; };
 		C346694B29D55CA700E2691A /* cricleCIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C346694A29D55CA700E2691A /* cricleCIDemoUITestsLaunchTests.swift */; };
+		FAD3184E26A3195D504C2BBE /* Pods_cricleCIDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43FC057CFCD11C5C616F4CA2 /* Pods_cricleCIDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AD972B06BA183AA6B178B56 /* Pods-cricleCIDemo-cricleCIDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cricleCIDemo-cricleCIDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-cricleCIDemo-cricleCIDemoUITests/Pods-cricleCIDemo-cricleCIDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43FC057CFCD11C5C616F4CA2 /* Pods_cricleCIDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cricleCIDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D46629069475CB15761AEA7 /* Pods-cricleCIDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cricleCIDemoTests.release.xcconfig"; path = "Target Support Files/Pods-cricleCIDemoTests/Pods-cricleCIDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D7A1F1F0BDA8462372C0AFB /* Pods-cricleCIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cricleCIDemo.release.xcconfig"; path = "Target Support Files/Pods-cricleCIDemo/Pods-cricleCIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7D5D86464E64018BD87E20B7 /* Pods-cricleCIDemo-cricleCIDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cricleCIDemo-cricleCIDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-cricleCIDemo-cricleCIDemoUITests/Pods-cricleCIDemo-cricleCIDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80AE1083F4A7E414D1DAB593 /* Pods_cricleCIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cricleCIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D08DFAD7C72627AA935D3F4 /* Pods-cricleCIDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cricleCIDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-cricleCIDemoTests/Pods-cricleCIDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C346692429D55CA500E2691A /* cricleCIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cricleCIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C346692729D55CA500E2691A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C346692929D55CA500E2691A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		C346694429D55CA700E2691A /* cricleCIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cricleCIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C346694829D55CA700E2691A /* cricleCIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cricleCIDemoUITests.swift; sourceTree = "<group>"; };
 		C346694A29D55CA700E2691A /* cricleCIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cricleCIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8C06B14F2EC5E16A0DE3D74 /* Pods_cricleCIDemo_cricleCIDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cricleCIDemo_cricleCIDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73D524EC3D13DBDF7CF19A8 /* Pods-cricleCIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cricleCIDemo.debug.xcconfig"; path = "Target Support Files/Pods-cricleCIDemo/Pods-cricleCIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D2EBE80726C679CDD601AC /* Pods_cricleCIDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD3184E26A3195D504C2BBE /* Pods_cricleCIDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B35EA4B64070A28C2C6ECF /* Pods_cricleCIDemo_cricleCIDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44029363C2C8E13978EA9160 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D73D524EC3D13DBDF7CF19A8 /* Pods-cricleCIDemo.debug.xcconfig */,
+				6D7A1F1F0BDA8462372C0AFB /* Pods-cricleCIDemo.release.xcconfig */,
+				7D5D86464E64018BD87E20B7 /* Pods-cricleCIDemo-cricleCIDemoUITests.debug.xcconfig */,
+				3AD972B06BA183AA6B178B56 /* Pods-cricleCIDemo-cricleCIDemoUITests.release.xcconfig */,
+				8D08DFAD7C72627AA935D3F4 /* Pods-cricleCIDemoTests.debug.xcconfig */,
+				5D46629069475CB15761AEA7 /* Pods-cricleCIDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		65D435F4EAD55F852E1BD5DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80AE1083F4A7E414D1DAB593 /* Pods_cricleCIDemo.framework */,
+				C8C06B14F2EC5E16A0DE3D74 /* Pods_cricleCIDemo_cricleCIDemoUITests.framework */,
+				43FC057CFCD11C5C616F4CA2 /* Pods_cricleCIDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C346691B29D55CA500E2691A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				C346693D29D55CA700E2691A /* cricleCIDemoTests */,
 				C346694729D55CA700E2691A /* cricleCIDemoUITests */,
 				C346692529D55CA500E2691A /* Products */,
+				44029363C2C8E13978EA9160 /* Pods */,
+				65D435F4EAD55F852E1BD5DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C346694E29D55CA700E2691A /* Build configuration list for PBXNativeTarget "cricleCIDemo" */;
 			buildPhases = (
+				E8A5F38AF5168972E098EFC6 /* [CP] Check Pods Manifest.lock */,
 				C346692029D55CA500E2691A /* Sources */,
 				C346692129D55CA500E2691A /* Frameworks */,
 				C346692229D55CA500E2691A /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C346695129D55CA700E2691A /* Build configuration list for PBXNativeTarget "cricleCIDemoTests" */;
 			buildPhases = (
+				17A9DD1620195239B2CC9837 /* [CP] Check Pods Manifest.lock */,
 				C346693629D55CA700E2691A /* Sources */,
 				C346693729D55CA700E2691A /* Frameworks */,
 				C346693829D55CA700E2691A /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C346695429D55CA700E2691A /* Build configuration list for PBXNativeTarget "cricleCIDemoUITests" */;
 			buildPhases = (
+				8A0824B0B2CCF831BE844A10 /* [CP] Check Pods Manifest.lock */,
 				C346694029D55CA700E2691A /* Sources */,
 				C346694129D55CA700E2691A /* Frameworks */,
 				C346694229D55CA700E2691A /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17A9DD1620195239B2CC9837 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cricleCIDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A0824B0B2CCF831BE844A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cricleCIDemo-cricleCIDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A5F38AF5168972E098EFC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cricleCIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C346692029D55CA500E2691A /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		C346694F29D55CA700E2691A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73D524EC3D13DBDF7CF19A8 /* Pods-cricleCIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +573,7 @@
 		};
 		C346695029D55CA700E2691A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7A1F1F0BDA8462372C0AFB /* Pods-cricleCIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +601,7 @@
 		};
 		C346695229D55CA700E2691A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D08DFAD7C72627AA935D3F4 /* Pods-cricleCIDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +621,7 @@
 		};
 		C346695329D55CA700E2691A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D46629069475CB15761AEA7 /* Pods-cricleCIDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +641,7 @@
 		};
 		C346695529D55CA700E2691A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5D86464E64018BD87E20B7 /* Pods-cricleCIDemo-cricleCIDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +659,7 @@
 		};
 		C346695629D55CA700E2691A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD972B06BA183AA6B178B56 /* Pods-cricleCIDemo-cricleCIDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
